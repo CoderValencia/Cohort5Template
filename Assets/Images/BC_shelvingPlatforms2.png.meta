@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f52f89d7ddae08b4087c32aac4682547
+guid: 907a57c0a3c41264eacf9bed214f16c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -114,7 +114,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,7 +126,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,7 +139,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shelving_Inner_FullShadow_L
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 206
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea5b2476731bcc4a94dfeae7deac5ba
+      internalID: 1328807044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shelving_Inner_FullShadow_R
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 156
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a51f6f4084b5e44bc4f36718c63d28
+      internalID: 1435420791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +192,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BC_ShelvingPlatforms 1_0: 1176011583
+      BC_ShelvingPlatforms 1_1: 2106080427
+      BC_ShelvingPlatforms 1_10: 2101842040
+      BC_ShelvingPlatforms 1_11: -111642966
+      BC_ShelvingPlatforms 1_13: -1282303971
+      BC_ShelvingPlatforms 1_14: -677148139
+      BC_ShelvingPlatforms 1_15: -971947703
+      BC_ShelvingPlatforms 1_16: -750829677
+      BC_ShelvingPlatforms 1_17: -261270281
+      BC_ShelvingPlatforms 1_18: 1090356959
+      BC_ShelvingPlatforms 1_19: 1096334834
+      BC_ShelvingPlatforms 1_2: 1918915750
+      BC_ShelvingPlatforms 1_20: -464729869
+      BC_ShelvingPlatforms 1_21: -1869617438
+      BC_ShelvingPlatforms 1_22: 450992863
+      BC_ShelvingPlatforms 1_23: 872450377
+      BC_ShelvingPlatforms 1_24: 1324123394
+      BC_ShelvingPlatforms 1_25: 295643881
+      BC_ShelvingPlatforms 1_26: 1033055967
+      BC_ShelvingPlatforms 1_3: 1285597518
+      BC_ShelvingPlatforms 1_4: 1908570275
+      BC_ShelvingPlatforms 1_6: -440672684
+      BC_ShelvingPlatforms 1_7: -1471677405
+      BC_ShelvingPlatforms 1_8: 1165789265
+      BC_ShelvingPlatforms 1_9: 2027617038
+      Shelving_Inner_FullShadow_L: 1328807044
+      Shelving_Inner_FullShadow_R: 1435420791
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
