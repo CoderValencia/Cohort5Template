@@ -21,6 +21,9 @@ public class Jumper : MonoBehaviour
     //Private variables are not visible in the inspector, but they still exist
     private Rigidbody2D myRigidBody2D;
 
+    //A boolean that detects whether or not we are touching something. Allowing us to jump again.
+    //private bool isOnGround;
+
     void Start()
     {
         //This script needs a rigidbody2d and a ground detector attached to the same object to work
@@ -69,13 +72,16 @@ public class Jumper : MonoBehaviour
         {
             // If this hit ourself, skip this element in the loop
             if (hit.transform == transform) continue;
-            
+            //isOnGround = true;
+            //Debug.Log("ready to jump");
             // Otherwise, if this hit did not hit ourself, then there must be something else below us
             // This could either be the ground or an enemy, but we'll assume it's the ground for simplicity's sake
             // Programmers, you can improve this by having all of the ground tiles be on a single physics layer that this raycast checks for
             return true;
         }
 
+        //isOnGround= false;
+        //Debug.Log("jump in progress");
         // We didn't return true yet, so we aren't on the ground
         return false;
     }
@@ -87,4 +93,5 @@ public class Jumper : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(startPosition, Vector3.down*groundCheckDistance);
     }
+
 }
