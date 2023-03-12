@@ -16,14 +16,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             mover.AccelerateInDirection(new Vector2(-1, 0));
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
 
         //Listen for key presses and move right
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             mover.AccelerateInDirection(new Vector2(1, 0));
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
 
         //Listen for key presses and jump

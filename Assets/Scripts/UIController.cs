@@ -127,7 +127,7 @@ public class UIController : MonoBehaviour
         if (coinCountText != null)
         {
             //Change the text to our new count
-            coinCountText.text = "X " + coinCount;
+            coinCountText.text = "" + coinCount;
         }
     }
 

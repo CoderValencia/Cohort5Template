@@ -13,7 +13,7 @@ public class JumpOverTime : MonoBehaviour
     void Update()
     {
         timeSinceJump += Time.deltaTime;
-        print(timeSinceJump);
+        //print(timeSinceJump);
 
         if( timeSinceJump >= timeUntilJump )
         {

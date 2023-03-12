@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,7 +141,78 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shelving_Inner_FullShadow_L
+      name: BC_shelvingPlatforms2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 20}
+        - {x: 30, y: 20}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef7954e98e36f84aa1b070736bb8143
+      internalID: 1423149268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 206
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e93ebaaf81ed34292065527d0a490b
+      internalID: 482847554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 206
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 20}
+        - {x: 30, y: 20}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de6d0e75e316964eaf2a7b43ea2dc9e
+      internalID: -1435384790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_5
       rect:
         serializedVersion: 2
         x: 360
@@ -149,20 +220,117 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 20}
+        - {x: -20, y: 20}
+        - {x: -20, y: 24}
+        - {x: -21, y: 25}
       tessellationDetail: 0
       bones: []
-      spriteID: bea5b2476731bcc4a94dfeae7deac5ba
-      internalID: 1328807044
+      spriteID: 2327db776c48c3a44b1ecd340b5cbe61
+      internalID: 1751814136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shelving_Inner_FullShadow_R
+      name: BC_shelvingPlatforms2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 20}
+        - {x: 30, y: 20}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac08adf3269a5a4582b5fc4260b672a
+      internalID: 296373055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 156
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f65ff7123641394a8cb379116c0123a
+      internalID: 362735977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 156
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 20}
+        - {x: 30, y: 20}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6635c18af8719834a8e6a7a8e18ebe26
+      internalID: -1409270427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 156
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78edabdb8d5b5e64cafaab40151c3372
+      internalID: -1612465954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_12
       rect:
         serializedVersion: 2
         x: 360
@@ -170,14 +338,328 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 21, y: 25}
+        - {x: 20, y: 24}
+        - {x: 20, y: 20}
+        - {x: 30, y: 20}
+        - {x: 30, y: 25}
       tessellationDetail: 0
       bones: []
-      spriteID: e7a51f6f4084b5e44bc4f36718c63d28
-      internalID: 1435420791
+      spriteID: 0844b9fbe4abea54aa69a724e6a5109d
+      internalID: 1171894338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -26, y: 25}
+        - {x: -29, y: 22}
+        - {x: -29, y: 19}
+        - {x: 30, y: 19}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c858467839a6745aab30c1aeda38c0
+      internalID: 1568335041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 106
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 19}
+        - {x: 30, y: 19}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccca0759aab81044cabc1f9fbe6150a1
+      internalID: -1745859007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 106
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 19}
+        - {x: 30, y: 19}
+        - {x: 30, y: 23}
+        - {x: 27, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05629024221478846b5f7457992b8f2c
+      internalID: -450305899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 106
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: -13}
+        - {x: -30, y: -17}
+        - {x: -26, y: -25}
+        - {x: 30, y: -25}
+        - {x: 30, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a06b474c0ac3a4f9c5ebd618827207
+      internalID: 1537935373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 106
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: -25}
+        - {x: 30, y: -25}
+        - {x: 30, y: -13}
+        - {x: -30, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5976a7452922fc24dbd5e11dbe9e45c7
+      internalID: -1522670279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 106
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: -25}
+        - {x: 25, y: -25}
+        - {x: 30, y: -18}
+        - {x: 30, y: -13}
+        - {x: -30, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe853f36d43f99e488e4539bd257f9a0
+      internalID: 223115307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -28, y: 25}
+        - {x: -29, y: 23}
+        - {x: -30, y: 21}
+        - {x: -30, y: 19}
+        - {x: 30, y: 19}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6a2750f362ce147b6521d56c8edd55
+      internalID: -608265241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 56
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 25}
+        - {x: -30, y: 19}
+        - {x: 30, y: 19}
+        - {x: 30, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ddc3fb702b39f489b5304b6ad5a013
+      internalID: -596818239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 26, y: 25}
+        - {x: -30, y: 25}
+        - {x: -30, y: 19}
+        - {x: 30, y: 19}
+        - {x: 30, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b515ced969a15f44699b6e4332906c10
+      internalID: 1201123364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 56
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: -13}
+        - {x: -30, y: -17}
+        - {x: -25, y: -25}
+        - {x: 30, y: -25}
+        - {x: 30, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03bef4529df4f4a8738391d6366f8b
+      internalID: 1970309990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 56
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: -25}
+        - {x: 30, y: -25}
+        - {x: 30, y: -13}
+        - {x: -30, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba144528e41081642bcfac0d5605961d
+      internalID: -1518345546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_shelvingPlatforms2_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 56
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: -25}
+        - {x: 25, y: -25}
+        - {x: 30, y: -18}
+        - {x: 30, y: -13}
+        - {x: -30, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fda49ceb26fa64d948ab7b860d115b
+      internalID: -1653027394
       vertices: []
       indices: 
       edges: []
@@ -193,33 +675,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BC_ShelvingPlatforms 1_0: 1176011583
-      BC_ShelvingPlatforms 1_1: 2106080427
-      BC_ShelvingPlatforms 1_10: 2101842040
-      BC_ShelvingPlatforms 1_11: -111642966
-      BC_ShelvingPlatforms 1_13: -1282303971
-      BC_ShelvingPlatforms 1_14: -677148139
-      BC_ShelvingPlatforms 1_15: -971947703
-      BC_ShelvingPlatforms 1_16: -750829677
-      BC_ShelvingPlatforms 1_17: -261270281
-      BC_ShelvingPlatforms 1_18: 1090356959
-      BC_ShelvingPlatforms 1_19: 1096334834
-      BC_ShelvingPlatforms 1_2: 1918915750
-      BC_ShelvingPlatforms 1_20: -464729869
-      BC_ShelvingPlatforms 1_21: -1869617438
-      BC_ShelvingPlatforms 1_22: 450992863
-      BC_ShelvingPlatforms 1_23: 872450377
-      BC_ShelvingPlatforms 1_24: 1324123394
-      BC_ShelvingPlatforms 1_25: 295643881
-      BC_ShelvingPlatforms 1_26: 1033055967
-      BC_ShelvingPlatforms 1_3: 1285597518
-      BC_ShelvingPlatforms 1_4: 1908570275
-      BC_ShelvingPlatforms 1_6: -440672684
-      BC_ShelvingPlatforms 1_7: -1471677405
-      BC_ShelvingPlatforms 1_8: 1165789265
-      BC_ShelvingPlatforms 1_9: 2027617038
-      Shelving_Inner_FullShadow_L: 1328807044
-      Shelving_Inner_FullShadow_R: 1435420791
+      BC_shelvingPlatforms2_0: 1423149268
+      BC_shelvingPlatforms2_1: 482847554
+      BC_shelvingPlatforms2_10: 744725662
+      BC_shelvingPlatforms2_11: 1427887987
+      BC_shelvingPlatforms2_12: 1171894338
+      BC_shelvingPlatforms2_13: 1568335041
+      BC_shelvingPlatforms2_14: -1745859007
+      BC_shelvingPlatforms2_15: -450305899
+      BC_shelvingPlatforms2_16: 1537935373
+      BC_shelvingPlatforms2_17: -1522670279
+      BC_shelvingPlatforms2_18: 223115307
+      BC_shelvingPlatforms2_19: -608265241
+      BC_shelvingPlatforms2_2: -1435384790
+      BC_shelvingPlatforms2_20: -596818239
+      BC_shelvingPlatforms2_21: 1201123364
+      BC_shelvingPlatforms2_22: 1970309990
+      BC_shelvingPlatforms2_23: -1518345546
+      BC_shelvingPlatforms2_24: -1653027394
+      BC_shelvingPlatforms2_25: -41189734
+      BC_shelvingPlatforms2_26: -945409991
+      BC_shelvingPlatforms2_3: -77662016
+      BC_shelvingPlatforms2_4: -1598949095
+      BC_shelvingPlatforms2_5: 1751814136
+      BC_shelvingPlatforms2_6: 296373055
+      BC_shelvingPlatforms2_7: 362735977
+      BC_shelvingPlatforms2_8: -1409270427
+      BC_shelvingPlatforms2_9: -1612465954
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
