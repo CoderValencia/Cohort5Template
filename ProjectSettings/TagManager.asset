@@ -41,6 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 270182813
+    locked: 0
+  - name: Shelves
+    uniqueID: 3849751565
+    locked: 0
   - name: Player
     uniqueID: 3399801631
     locked: 0
