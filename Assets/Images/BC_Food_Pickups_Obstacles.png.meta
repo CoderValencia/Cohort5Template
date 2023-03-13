@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OB_cupNoodle_or_Light
+      name: BC_Food_Pickups_Obstacles_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,20 +149,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d49dc5c32bffde84bb8d918db9f3563d
-      internalID: -526987697
+      spriteID: e611447b69a5e454ab360f650eca482d
+      internalID: -1093591406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_cupNoodle_grn_Light
+      name: BC_Food_Pickups_Obstacles_1
       rect:
         serializedVersion: 2
         x: 60
@@ -170,20 +170,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad2bc26df06b7d8458ce5794ec4ba338
-      internalID: 1862372994
+      spriteID: 9fa99a5b24636834dae68f7a02051a6c
+      internalID: 2117827902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_cupNoodle_or_shadow
+      name: BC_Food_Pickups_Obstacles_2
       rect:
         serializedVersion: 2
         x: 120
@@ -191,20 +191,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62a34178cf796fd4dac43bd626fb9730
-      internalID: -1020038279
+      spriteID: 38e23083ca8d560409405fcb2cc4f9fe
+      internalID: 1277330641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_cupNoodle_grn_shadow
+      name: BC_Food_Pickups_Obstacles_3
       rect:
         serializedVersion: 2
         x: 180
@@ -212,20 +212,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d00fcc73d317f90448e61eca337e0362
-      internalID: 557058995
+      spriteID: 9def3fbc8213d4b45b92b646663e4e3d
+      internalID: -832233558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_cupNoodle_or_shadow_multi
+      name: BC_Food_Pickups_Obstacles_4
       rect:
         serializedVersion: 2
         x: 240
@@ -233,20 +233,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04d7bff1f68d59247bd124bbdd90bcea
-      internalID: -2064791911
+      spriteID: e7113e2ebd120054799b0f151e0c5719
+      internalID: -2103956521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_cupNoodle_grn_shadow_multi
+      name: BC_Food_Pickups_Obstacles_5
       rect:
         serializedVersion: 2
         x: 300
@@ -254,20 +254,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12f7e12c719cddb418b4d73bec6f4ae2
-      internalID: -1686008935
+      spriteID: d4aba968d40a5f240aea090208e4656f
+      internalID: -368065692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_cupNoodle_or_Light_mult
+      name: BC_Food_Pickups_Obstacles_6
       rect:
         serializedVersion: 2
         x: 360
@@ -275,20 +275,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c407323f7efb8f843888efe523afcc2f
-      internalID: -10248706
+      spriteID: f3d2ae7bef89c1c45ad3cac81fb54cbd
+      internalID: -1192455251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_cupNoodle_grn_Light_mult
+      name: BC_Food_Pickups_Obstacles_7
       rect:
         serializedVersion: 2
         x: 420
@@ -296,20 +296,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b85d0d342b342f14b85162502a0a86fd
-      internalID: -1863765176
+      spriteID: 06649bfa726cfdf4593b23962e143ef1
+      internalID: 180393300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_grn_light
+      name: BC_Food_Pickups_Obstacles_8
       rect:
         serializedVersion: 2
         x: 0
@@ -317,20 +317,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f21868a7e36b114db1f96b2728dfce9
-      internalID: 1317941994
+      spriteID: c605b909be684d04491461b622715766
+      internalID: 1546813713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_cola_light
+      name: BC_Food_Pickups_Obstacles_9
       rect:
         serializedVersion: 2
         x: 60
@@ -338,20 +338,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8706f7a9229bb8f40b5d79437816b3f2
-      internalID: -1270040867
+      spriteID: d69423a694683da4291ba5cfb8f0e51e
+      internalID: -507926495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_grn_shadow
+      name: BC_Food_Pickups_Obstacles_10
       rect:
         serializedVersion: 2
         x: 120
@@ -359,20 +359,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c78853f9149bfca4f9ca9e6066bcd021
-      internalID: 593107032
+      spriteID: 38d05e6eacf05234b81b771e6c482c9c
+      internalID: -576744740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_cola_shadow
+      name: BC_Food_Pickups_Obstacles_11
       rect:
         serializedVersion: 2
         x: 180
@@ -380,20 +380,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6abd14dca09e2cd43b9cda015095d5b8
-      internalID: 656776958
+      spriteID: 5c6e61a15b656be4da31642b62d8054d
+      internalID: -1654495533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_grn_shadow_multi
+      name: BC_Food_Pickups_Obstacles_12
       rect:
         serializedVersion: 2
         x: 240
@@ -401,20 +401,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed09a7412e4e50e458a3a0674edad50f
-      internalID: -229242375
+      spriteID: 28920c04bbab3584aaf3f920e38678ce
+      internalID: 341508453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_cola_shadow_multi
+      name: BC_Food_Pickups_Obstacles_13
       rect:
         serializedVersion: 2
         x: 300
@@ -422,20 +422,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de977e59cb12ef4f8c650fe500fe554
-      internalID: 1686772042
+      spriteID: 8e8bb672b58236c46930ad8bda664f44
+      internalID: -154674752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_grn_light_multi
+      name: BC_Food_Pickups_Obstacles_14
       rect:
         serializedVersion: 2
         x: 360
@@ -443,20 +443,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f6057b1fc9275408e7049f8aa93da0
-      internalID: 497979630
+      spriteID: 4e35ed38cfc1cfc4fa79090d075153e0
+      internalID: 728552779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Soda_cola_light_multi
+      name: BC_Food_Pickups_Obstacles_15
       rect:
         serializedVersion: 2
         x: 420
@@ -464,20 +464,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2eff287eef554c478e600d3eedd1fac
-      internalID: -69460680
+      spriteID: 7816d452f1cb8b3419072e15c993aaf5
+      internalID: -1999010883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_Blue_Light
+      name: BC_Food_Pickups_Obstacles_16
       rect:
         serializedVersion: 2
         x: 0
@@ -485,20 +485,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abae7016ce9abc941acf0557af2c2ee6
-      internalID: 95369217
+      spriteID: 609b712af9f4d14418811fb7a7a5074f
+      internalID: 798825622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_white_light
+      name: BC_Food_Pickups_Obstacles_17
       rect:
         serializedVersion: 2
         x: 60
@@ -506,20 +506,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fe77b5f551f2946a526cfb16972560
-      internalID: -1578003293
+      spriteID: 2d2cf18c75c8b4a4ab9542851fd24eae
+      internalID: -775461898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_Blue_shadow
+      name: BC_Food_Pickups_Obstacles_18
       rect:
         serializedVersion: 2
         x: 120
@@ -527,20 +527,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e83d2d313083d7458592b825151f0a6
-      internalID: 158371125
+      spriteID: c038d0626e9712a4cb43ec4eb5e12c0f
+      internalID: 749244269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_white_shadow
+      name: BC_Food_Pickups_Obstacles_19
       rect:
         serializedVersion: 2
         x: 180
@@ -548,20 +548,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 331c6fd58166c024293c4b1a85e1347e
-      internalID: 518248517
+      spriteID: 3e336c161e2f44d4e8d1ab73f173271c
+      internalID: -217137473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_Blue_shadow_multi
+      name: BC_Food_Pickups_Obstacles_20
       rect:
         serializedVersion: 2
         x: 240
@@ -569,20 +569,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b452a6da4d37a61458b27aaf68e144b6
-      internalID: 648732052
+      spriteID: c7786b6647136704f91bdf65c737b8de
+      internalID: -1993781145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_white_shadow_multi
+      name: BC_Food_Pickups_Obstacles_21
       rect:
         serializedVersion: 2
         x: 300
@@ -590,20 +590,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d20462530861d9547bf1bbfa02237573
-      internalID: 1773102778
+      spriteID: 9fda0b1f01882c147be9169a18795b7d
+      internalID: 226516303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_Blue_Light_multi
+      name: BC_Food_Pickups_Obstacles_22
       rect:
         serializedVersion: 2
         x: 360
@@ -611,20 +611,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23fb54fc7c0de7e4484642cd8909aba1
-      internalID: -1410144751
+      spriteID: 52dcb40ed6cbeef47bec194f6986a435
+      internalID: 2074036281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Box_white_light_multi
+      name: BC_Food_Pickups_Obstacles_23
       rect:
         serializedVersion: 2
         x: 420
@@ -632,20 +632,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a32ece1a9336f0499fe514a9dfb9b85
-      internalID: -1052030275
+      spriteID: 5b97b0641f0636040b9cb7b6af1d02bc
+      internalID: 1572803786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Blue_light
+      name: BC_Food_Pickups_Obstacles_24
       rect:
         serializedVersion: 2
         x: 0
@@ -653,20 +653,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdb45923b08fcbc4c8f376e1d7f87668
-      internalID: 328773529
+      spriteID: b4666667bc43b4544bba76a4c7cc8369
+      internalID: -1505066628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Ylw_Light
+      name: BC_Food_Pickups_Obstacles_25
       rect:
         serializedVersion: 2
         x: 60
@@ -674,20 +674,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fda1fa9e34ed249b8b62ae4f728946
-      internalID: 2143776102
+      spriteID: a5c79522e51d12744936011b27b4142b
+      internalID: 1893843034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Blue_shadow
+      name: BC_Food_Pickups_Obstacles_26
       rect:
         serializedVersion: 2
         x: 120
@@ -695,20 +695,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0535d381470c7424d8b08334f5aa7e6b
-      internalID: 895039514
+      spriteID: 6a9843f23584399499c19b2f7f5485ae
+      internalID: 779288055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Ylw_shadow
+      name: BC_Food_Pickups_Obstacles_27
       rect:
         serializedVersion: 2
         x: 180
@@ -716,20 +716,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1336cc1273d5bf3479ed4ceb7b5a1c9a
-      internalID: -477650458
+      spriteID: ada26351f19cb7d4aabfc193e0bd15f8
+      internalID: 1756721705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Blue_shadow_multi
+      name: BC_Food_Pickups_Obstacles_28
       rect:
         serializedVersion: 2
         x: 240
@@ -737,20 +737,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e36c8733823d8940b3ddb99bb8f8bc5
-      internalID: -1158229971
+      spriteID: 72f167962c5c2a84b85f6586daee9c80
+      internalID: -354282181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Ylw_shadow_multi
+      name: BC_Food_Pickups_Obstacles_29
       rect:
         serializedVersion: 2
         x: 300
@@ -758,20 +758,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e264f9fae4bbb4dab4c44b42cf8d2a
-      internalID: -1900490069
+      spriteID: f4101900e8ae79a40acbd494d05f8262
+      internalID: 1005515896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Blue_light_multi
+      name: BC_Food_Pickups_Obstacles_30
       rect:
         serializedVersion: 2
         x: 360
@@ -779,20 +779,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8599e78fecb25984c814007a8d9128b0
-      internalID: 1303285970
+      spriteID: d979385500c962247b13aa4404da2a1e
+      internalID: -248675670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OB_Chips_Ylw_Light_multi
+      name: BC_Food_Pickups_Obstacles_31
       rect:
         serializedVersion: 2
         x: 420
@@ -800,20 +800,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb914978d92c84146ac2ae4705ddf0bb
-      internalID: -77887377
+      spriteID: ce37936b88f7e4d4ab7d9545ea73c7b3
+      internalID: -1772223128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pickup_Cheese
+      name: BC_Food_Pickups_Obstacles_32
       rect:
         serializedVersion: 2
         x: 0
@@ -821,20 +821,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f438af95443c542b8f2e9523f9eb88
-      internalID: 1630570828
+      spriteID: f239c413b05dab648a4e5dc9c18b8efa
+      internalID: 1672701436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pickup_Bacon
+      name: BC_Food_Pickups_Obstacles_33
       rect:
         serializedVersion: 2
         x: 60
@@ -842,20 +842,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9cca3fbfcd4fa469bf9d5dfc44db8e
-      internalID: -1846452705
+      spriteID: c23ad9a19d3123141af5c7f4b037a084
+      internalID: 1020578187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pickup_BreadRoll
+      name: BC_Food_Pickups_Obstacles_34
       rect:
         serializedVersion: 2
         x: 120
@@ -863,20 +863,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a51d79f7f16e5c4894b19280cf6443d
-      internalID: 2093861306
+      spriteID: 25148aff04ccf8b408fca9f86a417ac9
+      internalID: -1590961700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pickup_Egg
+      name: BC_Food_Pickups_Obstacles_35
       rect:
         serializedVersion: 2
         x: 180
@@ -884,20 +884,20 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bbaee93b0ee588489853b54b50b0ff3
-      internalID: 1430074047
+      spriteID: b869284e77af12144a5dd5c565e94ed1
+      internalID: 1018717530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pickup_Sandwich
+      name: BC_Food_Pickups_Obstacles_36
       rect:
         serializedVersion: 2
         x: 240
@@ -905,14 +905,14 @@ TextureImporter:
         width: 60
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab03be7a9d912c44788b9fd7d826fcfe
-      internalID: -2080935931
+      spriteID: 1549fb2a4af20dd49aeafce4e33d52bc
+      internalID: 2101210978
       vertices: []
       indices: 
       edges: []
@@ -928,43 +928,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      OB_Box_Blue_Light: 95369217
-      OB_Box_Blue_Light_multi: -1410144751
-      OB_Box_Blue_shadow: 158371125
-      OB_Box_Blue_shadow_multi: 648732052
-      OB_Box_white_light: -1578003293
-      OB_Box_white_light_multi: -1052030275
-      OB_Box_white_shadow: 518248517
-      OB_Box_white_shadow_multi: 1773102778
-      OB_Chips_Blue_light: 328773529
-      OB_Chips_Blue_light_multi: 1303285970
-      OB_Chips_Blue_shadow: 895039514
-      OB_Chips_Blue_shadow_multi: -1158229971
-      OB_Chips_Ylw_Light: 2143776102
-      OB_Chips_Ylw_Light_multi: -77887377
-      OB_Chips_Ylw_shadow: -477650458
-      OB_Chips_Ylw_shadow_multi: -1900490069
-      OB_Soda_cola_light: -1270040867
-      OB_Soda_cola_light_multi: -69460680
-      OB_Soda_cola_shadow: 656776958
-      OB_Soda_cola_shadow_multi: 1686772042
-      OB_Soda_grn_light: 1317941994
-      OB_Soda_grn_light_multi: 497979630
-      OB_Soda_grn_shadow: 593107032
-      OB_Soda_grn_shadow_multi: -229242375
-      OB_cupNoodle_grn_Light: 1862372994
-      OB_cupNoodle_grn_Light_mult: -1863765176
-      OB_cupNoodle_grn_shadow: 557058995
-      OB_cupNoodle_grn_shadow_multi: -1686008935
-      OB_cupNoodle_or_Light: -526987697
-      OB_cupNoodle_or_Light_mult: -10248706
-      OB_cupNoodle_or_shadow: -1020038279
-      OB_cupNoodle_or_shadow_multi: -2064791911
-      Pickup_Bacon: -1846452705
-      Pickup_BreadRoll: 2093861306
-      Pickup_Cheese: 1630570828
-      Pickup_Egg: 1430074047
-      Pickup_Sandwich: -2080935931
+      BC_Food_Pickups_Obstacles_0: -1093591406
+      BC_Food_Pickups_Obstacles_1: 2117827902
+      BC_Food_Pickups_Obstacles_10: -576744740
+      BC_Food_Pickups_Obstacles_11: -1654495533
+      BC_Food_Pickups_Obstacles_12: 341508453
+      BC_Food_Pickups_Obstacles_13: -154674752
+      BC_Food_Pickups_Obstacles_14: 728552779
+      BC_Food_Pickups_Obstacles_15: -1999010883
+      BC_Food_Pickups_Obstacles_16: 798825622
+      BC_Food_Pickups_Obstacles_17: -775461898
+      BC_Food_Pickups_Obstacles_18: 749244269
+      BC_Food_Pickups_Obstacles_19: -217137473
+      BC_Food_Pickups_Obstacles_2: 1277330641
+      BC_Food_Pickups_Obstacles_20: -1993781145
+      BC_Food_Pickups_Obstacles_21: 226516303
+      BC_Food_Pickups_Obstacles_22: 2074036281
+      BC_Food_Pickups_Obstacles_23: 1572803786
+      BC_Food_Pickups_Obstacles_24: -1505066628
+      BC_Food_Pickups_Obstacles_25: 1893843034
+      BC_Food_Pickups_Obstacles_26: 779288055
+      BC_Food_Pickups_Obstacles_27: 1756721705
+      BC_Food_Pickups_Obstacles_28: -354282181
+      BC_Food_Pickups_Obstacles_29: 1005515896
+      BC_Food_Pickups_Obstacles_3: -832233558
+      BC_Food_Pickups_Obstacles_30: -248675670
+      BC_Food_Pickups_Obstacles_31: -1772223128
+      BC_Food_Pickups_Obstacles_32: 1672701436
+      BC_Food_Pickups_Obstacles_33: 1020578187
+      BC_Food_Pickups_Obstacles_34: -1590961700
+      BC_Food_Pickups_Obstacles_35: 1018717530
+      BC_Food_Pickups_Obstacles_36: 2101210978
+      BC_Food_Pickups_Obstacles_4: -2103956521
+      BC_Food_Pickups_Obstacles_5: -368065692
+      BC_Food_Pickups_Obstacles_6: -1192455251
+      BC_Food_Pickups_Obstacles_7: 180393300
+      BC_Food_Pickups_Obstacles_8: 1546813713
+      BC_Food_Pickups_Obstacles_9: -507926495
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
