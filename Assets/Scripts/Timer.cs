@@ -21,6 +21,8 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    
+
         currentTime = currentTime + Time.deltaTime;
         TimeSpan timeSpan = TimeSpan.FromSeconds(currentTime);
 

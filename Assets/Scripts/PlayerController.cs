@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("IsOnGround", jumper.IsOnGround());
             //Tell the animator our current y velocity 
             animator.SetFloat("YVelocity", gameObject.GetComponent<Rigidbody2D>().velocity.y);
-            Debug.Log(gameObject.GetComponent<Rigidbody2D>().velocity.y);
+            //Debug.Log(gameObject.GetComponent<Rigidbody2D>().velocity.y);
             //It uses all these things to decide which animation to play
         }
        

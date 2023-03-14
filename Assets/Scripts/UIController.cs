@@ -24,7 +24,9 @@ public class UIController : MonoBehaviour
     //A var to know whether or not we have lost the game
     private bool hasLost = false;
     //The current coin coint in the game
-    private int coinCount;
+    public int coinCount ;
+
+    public Timer timer;
 
     //Awake happens once at the beginning of the game, even before Start()
     public void Awake()
@@ -102,6 +104,13 @@ public class UIController : MonoBehaviour
             //And set has lost to true
             hasLost = true;
         }
+        //If all coins are collected
+        if (coinCount == 4)
+        {
+            PlayerPrefs.SetString("Player Time", timer.currentTimeText.text);
+            Debug.Log(PlayerPrefs.GetString("Player Time"));
+            SceneManager.LoadScene("WinScreen");
+        }
     }
 
     //Load a level by level name
@@ -141,4 +150,10 @@ public class UIController : MonoBehaviour
             projectileCountText.text = "X " + totalProjectiles;
         }
     }
+
+    public void WinScreen()
+    {
+       
+    }
+
 }
