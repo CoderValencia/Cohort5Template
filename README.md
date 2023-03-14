@@ -12,7 +12,7 @@ Team Paladins
 ## Story
 Embark on an urban adventure as Nacho “Cheddar” Cheese, New York City’s favourite bodega cat.  Traverse Little Cat Deli, jump across high shelves and platforms, and use your sharp cat teeth to grab ingredients for the upcoming order.  Once all the ingredients are secured, prepare to receive some treats and enjoy a short break of basking in the sun before the next level.
 
-**Platform:** Web (itch.io)     
+**Platform:** [Web (itch.io)](https://vc-creative-endeavors.itch.io/bodega-cats-cheese)     
 **Genre:** Platformer     
 **Target Release Date:** March 14, 2023    
 
